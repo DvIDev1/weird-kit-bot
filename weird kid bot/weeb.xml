@@ -1,0 +1,6 @@
+<dependency>
+    <groupId>me.duncte123</groupId>
+    <artifactId>weebJava</artifactId>
+    <version>2.2.0_29</version>
+    <type>pom</type>
+</dependency>
