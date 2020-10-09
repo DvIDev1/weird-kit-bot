@@ -29,7 +29,7 @@ public class WKB {
     }
 
     public WKB() throws LoginException {
-        jda = new JDABuilder(AccountType.BOT).setToken("NzM2NzAwMDQ2ODI0ODMzMDU1.XxynYg.UI-3InIbA2OV3XwnG5VBZ8l-5_Q").build();
+        jda = new JDABuilder(AccountType.BOT).setToken(System.getenv("TOKEN")).build();
         jda.getPresence().setActivity(Activity.watching("Animes"));
         jda.setAutoReconnect(true);
         jda.getPresence().setStatus(OnlineStatus.IDLE);
